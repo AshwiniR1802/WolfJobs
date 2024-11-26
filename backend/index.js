@@ -28,7 +28,7 @@ global.Headers = Headers;
 
 app.use(
   cors({
-    origin:["http://localhost:5173", "http://127.0.0.1:5173"], // Replace with your frontend URL
+    origin:["http://localhost:5173", "http://127.0.0.1:5173","https://deploy-mern-1whq.vercel.app"], // Replace with your frontend URL
     credentials: true,
   })
 );
