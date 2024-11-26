@@ -28,7 +28,7 @@ global.Headers = Headers;
 
 app.use(
   cors({
-    origin:["http://localhost:5173", "http://127.0.0.1:5173","https://wolfjobsv2se2024-fb57mea22-ashwinir1802s-projects.vercel.app"], // Replace with your frontend URL
+    origin:["http://localhost:5173", "http://127.0.0.1:5173","https://wolfjobsv2se2024.vercel.app/"], // Replace with your frontend URL
     credentials: true,
   })
 );
